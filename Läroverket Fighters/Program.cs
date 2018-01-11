@@ -11,7 +11,7 @@ namespace Läroverket_Fighters
         static void Main(string[] args)
         {
             Random randomizer = new Random();
-
+            //
             //Character HP
             int playerHP = randomizer.Next(25, 50);
             int enemyHP = randomizer.Next(5, 30);
